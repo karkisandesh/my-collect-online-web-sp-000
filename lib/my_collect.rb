@@ -11,7 +11,7 @@ end
 
 my_collect(["Tim Jones", "Tom Smith", "JIm Campagno"])
 do |first_name|
-  first_name.split(" ").first 
+    first_name.split(" ").first 
 end
 
 

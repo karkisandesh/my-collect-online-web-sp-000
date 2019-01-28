@@ -9,7 +9,7 @@ def my_collect(collection)
   collection_array
 end
 
-collection(["Tim Jones", "Tom Smith", "JIm Campagno"])
+my_collect(["Tim Jones", "Tom Smith", "JIm Campagno"])
 do |first_name|
   first_name.split(" ").first 
 end

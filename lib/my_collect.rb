@@ -9,8 +9,9 @@ def my_collect(collection)
   collection_array
 end
 
-my_collect(["Tim Jones", "Tom Smith", "JIm Campagno"])
-do |first_name|
+collection = ["Tim Jones", "Tom Smith", "JIm Campagno"]
+
+my_collect(collection) do |first_name|
     first_name.split(" ").first 
 end
 
